@@ -23,7 +23,8 @@ setup(name='opengraph_py3',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'beautifulsoup4'
+          'beautifulsoup4',
+          'lxml'
       ],
       entry_points="""
       # -*- Entry points: -*-
